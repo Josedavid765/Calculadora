@@ -9,5 +9,11 @@ public class Calculadora {
 		 System.out.println("Resultado de la suma: " +
 		calc.sumar(5, 3));
 		 }
+		 public int restar(int a, int b) {
+			 return a - b;
+			}
+			public int multiplicar(int a, int b) {
+			 return a * b;
+			}
 	}
 	
